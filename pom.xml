@@ -6,7 +6,7 @@
 
     <groupId>io.github.roony11-1</groupId>
     <artifactId>roony-error-rest</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>roony-error-rest</name>
@@ -14,8 +14,8 @@
     <url>https://github.com/roony11-1/roony-error-rest</url>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
     <dependencies>
