@@ -15,6 +15,8 @@ public final class HttpStatusRegistry
         STATUS_MAP.put(StandardErrorCategories.NOT_FOUND, 404);
         STATUS_MAP.put(StandardErrorCategories.ALREADY_EXISTS, 409);
         STATUS_MAP.put(StandardErrorCategories.INVALID_INPUT, 400);
+        STATUS_MAP.put(StandardErrorCategories.UNAUTHORIZED, 401);
+        STATUS_MAP.put(StandardErrorCategories.FORBIDDEN, 403);
         STATUS_MAP.put(StandardErrorCategories.ACCESS_DENIED, 401);
         STATUS_MAP.put(StandardErrorCategories.INTERNAL_ERROR, 500);
     }
